@@ -5,7 +5,7 @@ project:
 website:
   title: "Himanshu Goel"
   description: "Computational Scientist · Drug Design · AI/ML · Cheminformatics · Bioinformatics"
-  site-url: https://himanshugoel.github.io
+  site-url: https://hgoelgithub.github.io
   repo-url: https://github.com/himanshugoel
 
   navbar:
