@@ -1,0 +1,68 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Himanshu Goel"
+  description: "Computational Scientist · Drug Design · AI/ML · Cheminformatics · Bioinformatics"
+  site-url: https://himanshugoel.github.io
+  repo-url: https://github.com/himanshugoel
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - text: Tutorials
+        menu:
+          - href: tutorials/drug-design.qmd
+            text: Drug Design & CADD
+          - href: tutorials/cheminformatics.qmd
+            text: Cheminformatics
+          - href: tutorials/bioinformatics.qmd
+            text: Bioinformatics & RNA-Seq
+          - href: tutorials/agentic-ai.qmd
+            text: Agentic AI
+          - href: tutorials/ml-multimodal.qmd
+            text: ML & Multimodal
+      - href: code.qmd
+        text: Code & GitHub
+      - href: resources.qmd
+        text: Resources
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/himanshu-goel
+      - icon: linkedin
+        href: https://www.linkedin.com/in/himanshu-goel-72a58a5b/
+      - icon: envelope
+        href: mailto:hgchemical@gmail.com
+
+  sidebar: false
+
+  page-footer:
+    left: "© 2025 Himanshu Goel"
+    right:
+      - icon: github
+        href: https://github.com/himanshu-goel
+      - icon: linkedin
+        href: https://www.linkedin.com/in/himanshu-goel-72a58a5b/
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/custom.scss]
+      dark: [darkly, assets/custom-dark.scss]
+    code-fold: true
+    code-tools: true
+    toc: true
+    toc-depth: 3
+    highlight-style: github
+    df-print: paged
+
+execute:
+  freeze: auto
+  echo: true
+  warning: false

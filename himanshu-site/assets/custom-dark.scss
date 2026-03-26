@@ -1,0 +1,41 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+$font-family-base:      'DM Sans', sans-serif;
+$headings-font-family:  'DM Serif Display', serif;
+$font-family-monospace: 'JetBrains Mono', monospace;
+$headings-font-weight:  400;
+
+/*-- scss:rules --*/
+
+.hero-banner {
+  background: linear-gradient(135deg, #0d2b3e 0%, #0a4f45 100%);
+}
+
+.stat-card {
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.1);
+}
+
+.stat-card .number { color: #5dade2; }
+
+.expertise-pill {
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(93,173,226,0.3);
+  color: #85c1e9;
+}
+
+.tutorial-card {
+  background: rgba(255,255,255,0.04);
+  border-color: rgba(255,255,255,0.1);
+}
+
+.tutorial-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.pub-entry {
+  background: rgba(255,255,255,0.04);
+  border-left-color: #1abc9c;
+}

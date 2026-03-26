@@ -1,0 +1,123 @@
+---
+title: "Research"
+description: "Publications, conference contributions, and professional involvement"
+toc: true
+---
+
+## Journal publications
+
+::: {.pub-entry}
+[2024]{.pub-year} &nbsp;
+[Probing liver injuries induced by thioacetamide in human *in vitro* pooled hepatocyte experiments]{.pub-title}  
+[**Goel H**, Printz RL, Pannala VR, AbdulHameed MDM, Wallqvist A. *Int. J. Mol. Sci.* 2024, 25, 3265]{.pub-journal}
+:::
+
+::: {.pub-entry}
+[2024]{.pub-year} &nbsp;
+[Modeling Ligand Binding Site Water Networks with SILCS: Impact on Ligand Binding Orientations and Relative Binding Affinities]{.pub-title}  
+[Kumar A, **Goel H**, Yu W, Zhao M, MacKerell Jr. AD. *J. Chem. Theory Comput.* 2024, 20, 11032–11048]{.pub-journal}
+:::
+
+::: {.pub-entry}
+[2023]{.pub-year} &nbsp;
+[Assessing kidney injury induced by mercuric chloride in guinea pigs with *in vivo* and *in vitro* experiments]{.pub-title}  
+[**Goel H**, Printz RL, Shiota C, Estes SK, Pannala VR, AbdulHameed MDM, Shiota M, Wallqvist A. *Int. J. Mol. Sci.* 2023, 24, 7434]{.pub-journal}
+:::
+
+::: {.pub-entry}
+[2022]{.pub-year} &nbsp;
+[Application of SILCS in Computer-Aided Drug Design]{.pub-title}  
+[**Goel H**, Hazel A, Yu W, Jo S, MacKerell Jr. AD. *New J. Chem.* 2022, 46, 919–932]{.pub-journal}
+:::
+
+::: {.pub-entry}
+[2022]{.pub-year} &nbsp;
+[hERG Blockade prediction by combining SILCS and Physicochemical Properties]{.pub-title}  
+[**Goel H**, Yu W, MacKerell Jr. AD. *Chemistry* 2022, 4, 630–646]{.pub-journal}
+:::
+
+::: {.pub-entry}
+[2021]{.pub-year} &nbsp;
+[Rapid and Accurate Estimation of Protein–Ligand Relative Binding Affinities using SILCS]{.pub-title}  
+[**Goel H**, Hazel A, Ustach V, Jo S, Yu W, MacKerell Jr. AD. *Chem. Sci.* 2021, 12, 8844–8858]{.pub-journal}
+:::
+
+::: {.pub-entry}
+[2020]{.pub-year} &nbsp;
+[Impact of Electronic Polarizability on Protein Functional Group Interactions]{.pub-title}  
+[**Goel H**, Yu W, Ustach V, Aytenfisu AH, Sun D, MacKerell Jr. AD. *Phys. Chem. Chem. Phys.* 2020, 22, 6848]{.pub-journal}
+:::
+
+::: {.pub-entry}
+[2019]{.pub-year} &nbsp;
+[Absorption of CO₂ in Triethyl(butyl)phosphonium 2-Cyanopyrrolide Ionic Liquid via First Principles Simulations]{.pub-title}  
+[**Goel H**, Windom Z, Jackson A, Rai N. *J. Mol. Liq.* 2019, 292, 111323]{.pub-journal}
+:::
+
+::: {.pub-entry}
+[2018]{.pub-year} &nbsp;
+[Predicting Vapor Liquid Equilibria using Density Functional Theory: A Case Study of Argon]{.pub-title}  
+[**Goel H**, Ling S, Ellis BN, Taconi A, Slater B, Rai N. *J. Chem. Phys.* 2018, 148, 224501]{.pub-journal}
+:::
+
+::: {.pub-entry}
+[2018]{.pub-year} &nbsp;
+[Transferable Potentials for Chloroethenes: Insights into Nonideal Solution Behavior of Environmental Contaminants]{.pub-title}  
+[**Goel H**, Rai N. *ACS Omega* 2018, 3, 3646–3654]{.pub-journal}
+:::
+
+::: {.pub-entry}
+[2018]{.pub-year} &nbsp;
+[Solubility of CO₂ in Triglycerides using Monte Carlo Simulations]{.pub-title}  
+[Howlader MS, Venkatesan S, **Goel H**, French WT, Rai N. *Fluid Phase Equilib.* 2018, 476, 39–47]{.pub-journal}
+:::
+
+::: {.pub-entry}
+[2018]{.pub-year} &nbsp;
+[Performance of Density Functionals for Modeling Vapor Liquid Equilibria of CO₂ and SO₂]{.pub-title}  
+[**Goel H**, Jackson A, Windom Z, Rai N. *J. Comp. Chem.* 2018]{.pub-journal}
+:::
+
+::: {.pub-entry}
+[2017]{.pub-year} &nbsp;
+[Phase Equilibria and Condensed Phase Properties for Fluorinated Alkanes via First Principles Simulations]{.pub-title}  
+[**Goel H**, Butler C, Windom Z, Rai N. *Chemistry Select* 2017, 2, 11969–11976]{.pub-journal}
+:::
+
+::: {.pub-entry}
+[2016]{.pub-year} &nbsp;
+[Vapor Liquid Equilibria of Hydrofluorocarbons Using Dispersion-Corrected and Nonlocal Density Functionals]{.pub-title}  
+[**Goel H**, Butler C, Windom Z, Rai N. *J. Chem. Theory Comput.* 2016, 12, 3295–3304]{.pub-journal}
+:::
+
+::: {.pub-entry}
+[2014]{.pub-year} &nbsp;
+[Estimation of Interfacial Tension for Immiscible and Partially Miscible Liquid Systems by Dissipative Particle Dynamics]{.pub-title}  
+[**Goel H**, Chandran R, Mitra K, Majumdar S, Ray P. *Chem. Phys. Lett.* 2014, 600, 62–67]{.pub-journal}
+:::
+
+---
+
+## Conference contributions
+
+### Talks
+- **AIChE 2014**, Atlanta — *Force Field Development of Chloroethenes*
+- **AIChE 2014**, Atlanta — *VLE for Hydrofluorocarbons via First Principle Monte Carlo*
+- **AIChE 2015**, Salt Lake City — *VLE of Hydrofluoromethanes via First Principles Monte Carlo*
+- **AIChE 2016**, San Francisco — *Bulk Phase and Structural Properties for CO₂ and SO₂ via First Principles*
+- **APS Meeting 2018**, New Orleans — *Accuracy of DFT to Predict Vapor Liquid Equilibria*
+
+### Posters
+- **BPS 2019** — *Comparison of Functional Group Affinity Patterns from Additive vs Drude Polarizable Force Fields (SILCS)*
+- **BPS 2021** — *Capturing Water-mediated Interactions During Protein–Ligand Binding with SILCS*
+- **SOT 2023** — *Assessing kidney injury induced by mercuric chloride in guinea pigs*
+- **SOT 2024** — *Probing liver injuries induced by thioacetamide in human in vitro hepatocytes*
+- **Poster Chair**, Computational Toxicology I, SOT 2024
+
+---
+
+## Professional involvement
+
+**Memberships:** American Institute of Chemical Engineers (AIChE) · Biophysical Society (BPS) · Society of Toxicology (SOT)
+
+**Peer reviewer** for: *ACS Med. Chem. Lett.*, *J. Chem. Inf. Model.*, *J. Phys. Chem. Lett.*, *Chem. Sci.*, *J. Chem. Eng. Data*, *RSC Med. Chem.*, *New J. Chem.*, *Mach. Learn.: Sci. Technol.*, *Front. Genet.*, *Molecules*, *Int. J. Mol. Sci.*, *New J. Phys.*, *BBA–General Subjects*, and more.

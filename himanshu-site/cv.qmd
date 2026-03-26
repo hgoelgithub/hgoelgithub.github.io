@@ -1,0 +1,106 @@
+---
+title: "Curriculum Vitae"
+description: "Himanshu Goel — Computational Scientist"
+toc: true
+---
+
+[📄 Download PDF version](assets/Goel_Himanshu_CV.pdf){.btn .btn-outline-primary}
+&nbsp; [💼 LinkedIn](https://www.linkedin.com/in/himanshu-goel-72a58a5b/){.btn .btn-outline-secondary}
+&nbsp; [📧 hgchemical@gmail.com](mailto:hgchemical@gmail.com){.btn .btn-outline-secondary}
+
+---
+
+## Professional summary
+
+Experienced Computational Scientist with over 7 years of interdisciplinary experience in computational chemistry, biology, and toxicology. Strong background in computer-aided drug design, predictive toxicology, cheminformatics, bioinformatics, toxicogenomics, molecular dynamics, Monte Carlo, DFT, RNA-Seq, high-throughput screening, multiOMICS, and real-world datasets. Proficient in deep learning, transfer learning, generative AI, LLM, RAG, and agentic AI applied to real-world applications.
+
+---
+
+## Work experience
+
+### Computational Research Scientist II
+**BHSAI, Henry M. Jackson Foundation for the Advancement of Military Medicine** · Frederick, MD  
+*Feb 2022 – Mar 2025*
+
+- Data curation & visualization of large-scale biological and chemical datasets (PCA, t-SNE, UMAP, clustering, heatmaps)
+- Generative AI for novel molecular structure generation and drug repurposing
+- ML models (DNN, GNN, transformer LLMs) for compound classification against neurotoxicity-relevant GPCR targets
+- Computational neurotoxicity assessment of 200+ chemicals via Multi-Electrode Array (MEA) assay data
+- Integrative toxicogenomics: RNA-Seq pipelines for in vivo/in vitro rat, guinea pig, and human hepatocyte data
+- DEG analysis for liver/kidney injury biomarkers; in vitro–in vivo correlation and cross-species analysis
+- ADMET profiling with vNN-ADMET/SwissADME for risk assessment
+- Funded by DoD, DTRA, NIH, and AFRL
+
+---
+
+### Postdoctoral Researcher
+**Computer-Aided Drug Design Center, University of Maryland Baltimore** · Baltimore, MD  
+*May 2018 – Feb 2022*  
+*Advisor: Prof. Alexander D. MacKerell, Jr.*
+
+- Developed and deployed computational workflows for early-phase drug discovery: protein prep, SILCS FragMaps, pharmacophore modeling, virtual screening, docking, SAR analysis
+- Benchmarked SILCS protein-ligand relative binding affinities against FEP methods
+- Designed SILCS workflow for polarizable force fields and MD simulations
+- Developed **SILCS-MC Water** — a novel technique to predict water networks in binding pockets
+- COVID-19: Applied SILCS CADD workflow targeting SARS-CoV-2 spike protein for antiviral drug development
+- hERG1 safety pharmacology: predictive models integrating SILCS + physicochemical properties
+
+---
+
+### Research Assistant
+**Mississippi State University** · Starkville, MS  
+*Aug 2013 – May 2018*  
+*Advisor: Prof. Neeraj Rai*
+
+- Predicted vapor-liquid equilibria (VLE), saturated vapor pressures, and critical properties via DFT/Monte Carlo
+- Adsorption equilibria, transport properties, and structural mechanisms for ionic liquids
+- Novel "cluster translation moves" algorithm in CP2K MC suite
+- TraPPE classical force field development for organic molecules
+- Octanol-water partition coefficients and solvation free energies for NDMA and trichloroethylene
+
+---
+
+### Research Assistant
+**Indian Institute of Technology Hyderabad** · Hyderabad, India  
+*Dec 2011 – Jul 2013*
+
+- Interfacial properties for multiple liquid systems via dissipative particle dynamics
+
+---
+
+## Education
+
+| Degree | Field | Institution | Year | Grade |
+|--------|-------|-------------|------|-------|
+| **PhD** | Chemical Engineering | Mississippi State University | 2018 | GPA 3.66/4.0 |
+| **M.Tech** | Chemical Engineering | IIT Hyderabad | 2013 | CGPA 9.17/10.0 |
+| **B.E.** | Chemical Engineering | BVCOE Pune | 2010 | Distinction |
+
+---
+
+## Technical skills
+
+**Programming:** Python · R · Fortran · C · C++ · Bash · SQL · OpenMP · OpenACC
+
+**Simulation software:** CHARMM · OpenMM · Schrödinger Suite · GROMACS · NAMD · SILCS · AutoDock Vina · Gaussian · CP2K · CPMD · MOE · Discovery Studio · VMD · PyMol · KNIME · Molpro · Matlab
+
+**ML / AI:** Random Forest · XGBoost · Naïve Bayes · DNN · GNN · Transformers/LLMs · PyTorch · TensorFlow · DeepChem · LangChain · LangGraph · RAG · Agentic AI
+
+**Visualization:** Matplotlib · Seaborn · RDKit · PyMol · VMD
+
+**Platforms:** GitHub · HPC clusters · Docker · Cloud computing (AWS/GCP)
+
+---
+
+## Awards
+
+- 🥈 2nd Position (Silver Medal), Diploma in Chemical Engineering, 2008, New Delhi
+- 🥇 1st Rank, Entrance Examination for Diploma Holders at BVCOE, 2007, Pune
+- 🥇 1st Prize, Industry Problem "Economical Desulfurization in Refineries" (HPCL sponsor), MIT Pune, 2009
+- 🥇 1st Prize, Paper: "CO₂ Sequestration Using Carbon-Based Fertilizers from Biomass", Bhartiyam 2010, Pune
+
+---
+
+## References
+
+Available upon request. See [Research](research.qmd) page for advisor contact information.

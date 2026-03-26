@@ -1,0 +1,95 @@
+---
+title: "Code & GitHub"
+description: "Open-source Python repositories for computational science and drug discovery"
+toc: true
+---
+
+All repositories live at **[github.com/himanshu-goel](https://github.com/himanshu-goel)**.  
+Each repo includes a README, example data, and a Jupyter notebook walkthrough.
+
+---
+
+## Drug discovery & CADD
+
+### 🧬 `silcs-drug-discovery`
+A Python workflow wrapping SILCS FragMap generation, pharmacophore modeling, virtual screening, and SAR analysis. Includes benchmarking against FEP results.
+
+**Key scripts:** `silcs_fragmap.py` · `virtual_screen.py` · `sar_analysis.py` · `binding_affinity.py`  
+**Tags:** `cadd` `silcs` `molecular-docking` `drug-discovery`  
+[View on GitHub →](https://github.com/himanshu-goel/silcs-drug-discovery)
+
+---
+
+### ⚡ `herg-predictor`
+Machine learning pipeline to predict hERG1 blockade by combining SILCS-derived features with physicochemical properties. Based on the *Chemistry* 2022 paper.
+
+**Key scripts:** `featurize.py` · `train_herg_model.py` · `predict.py`  
+**Tags:** `herg` `cardiotoxicity` `machine-learning` `safety-pharmacology`  
+[View on GitHub →](https://github.com/himanshu-goel/herg-predictor)
+
+---
+
+## Toxicogenomics & bioinformatics
+
+### 🧫 `rnaseq-tox-pipeline`
+End-to-end RNA-Seq analysis pipeline for toxicogenomics studies. Covers QC, alignment, DESeq2 differential expression, pathway analysis, and in vitro–in vivo correlation. Validated on rat, guinea pig, and human hepatocyte data.
+
+**Key scripts:** `run_pipeline.sh` · `deseq2_analysis.R` · `pathway_enrichment.R` · `ivive_correlation.py`  
+**Tags:** `rna-seq` `toxicogenomics` `bioinformatics` `deseq2`  
+[View on GitHub →](https://github.com/himanshu-goel/rnaseq-tox-pipeline)
+
+---
+
+### 📊 `mea-neurotox`
+Analysis of Multi-Electrode Array (MEA) assay data for computational neurotoxicity profiling. Implements dose-response modeling via `tcplfit2` and chemical-activity similarity analysis.
+
+**Key scripts:** `mea_preprocess.py` · `dose_response.R` · `activity_similarity.py` · `fingerprint_mea_correlation.py`  
+**Tags:** `neurotoxicity` `mea` `dose-response` `high-throughput`  
+[View on GitHub →](https://github.com/himanshu-goel/mea-neurotox)
+
+---
+
+## Machine learning & AI
+
+### 🤖 `agentic-ai-drugdiscovery`
+Agentic AI workflows for drug discovery tasks using LangGraph, LangChain, and RAG. Includes tool-calling agents that query PubChem, ChEMBL, and UniProt, plus a RAG pipeline over scientific literature.
+
+**Key scripts:** `agent_drugquery.py` · `rag_pipeline.py` · `chembl_tool.py` · `pubchem_tool.py`  
+**Tags:** `agentic-ai` `langgraph` `rag` `llm` `drug-discovery`  
+[View on GitHub →](https://github.com/himanshu-goel/agentic-ai-drugdiscovery)
+
+---
+
+### 🔬 `ml-compound-classifier`
+ML pipeline for classifying active/inactive compounds against neurotoxicity-relevant GPCR targets. Compares traditional ML (RF, XGBoost), DNNs, GNNs, and transformer-based LLMs using DeepChem and PyTorch.
+
+**Key scripts:** `featurize_compounds.py` · `train_rf_xgb.py` · `train_gnn.py` · `train_transformer.py` · `benchmark.py`  
+**Tags:** `machine-learning` `gnn` `transformer` `cheminformatics` `deepchem`  
+[View on GitHub →](https://github.com/himanshu-goel/ml-compound-classifier)
+
+---
+
+### 🧪 `generative-mol-design`
+Generative AI for novel molecule design — variational autoencoders, graph-based generative models, and LLM-guided molecular generation. Supports drug repurposing workflows.
+
+**Key scripts:** `vae_train.py` · `graph_gen.py` · `llm_mol_gen.py` · `admet_filter.py`  
+**Tags:** `generative-ai` `molecule-generation` `drug-repurposing` `vae`  
+[View on GitHub →](https://github.com/himanshu-goel/generative-mol-design)
+
+---
+
+## Cheminformatics utilities
+
+### ⚗️ `cheminformatics-toolkit`
+A curated collection of RDKit-based utilities: fingerprint generation, chemical space PCA/UMAP, scaffold analysis, ADMET profiling wrappers (vNN-ADMET, SwissADME), and structure-activity relationship (SAR) visualization.
+
+**Key scripts:** `fingerprints.py` · `chemical_space.py` · `admet_profiling.py` · `sar_plot.py`  
+**Tags:** `rdkit` `cheminformatics` `admet` `chemical-space` `sar`  
+[View on GitHub →](https://github.com/himanshu-goel/cheminformatics-toolkit)
+
+---
+
+## Contribute or collaborate
+
+Found a bug or have a suggestion? Open an issue on any repo.  
+Interested in collaborating on a project? [Reach out →](mailto:hgchemical@gmail.com)

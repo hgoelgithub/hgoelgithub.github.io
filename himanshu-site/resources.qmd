@@ -1,0 +1,83 @@
+---
+title: "Resources"
+description: "Curated tools, databases, and learning resources for computational scientists"
+toc: true
+---
+
+A curated collection of open resources I find useful in my daily research. Contributions and suggestions welcome — [open an issue](https://github.com/himanshu-goel).
+
+---
+
+## Molecular & chemical databases
+
+| Database | Description | Link |
+|----------|-------------|------|
+| **ChEMBL** | Bioactivity data for drug-like molecules | [chembl.ebi.ac.uk](https://www.ebi.ac.uk/chembl/) |
+| **PubChem** | Chemical structures, properties, bioassays | [pubchem.ncbi.nlm.nih.gov](https://pubchem.ncbi.nlm.nih.gov/) |
+| **ZINC** | Commercially available compounds for docking | [zinc.docking.org](https://zinc.docking.org/) |
+| **DrugBank** | Drug targets, interactions, pharmacology | [drugbank.com](https://www.drugbank.com/) |
+| **BindingDB** | Measured protein-ligand binding affinities | [bindingdb.org](https://www.bindingdb.org/) |
+| **PDB** | Experimental protein structures | [rcsb.org](https://www.rcsb.org/) |
+| **UniProt** | Protein sequences and functional annotation | [uniprot.org](https://www.uniprot.org/) |
+
+---
+
+## Toxicology & safety resources
+
+| Resource | Description | Link |
+|----------|-------------|------|
+| **ToxCast / CompTox** | EPA HTS data for 10,000+ chemicals | [comptox.epa.gov](https://comptox.epa.gov/) |
+| **hERG Central** | Curated hERG activity database | [chembl](https://www.ebi.ac.uk/chembl/) |
+| **vNN-ADMET** | ADMET prediction server | [vnnadmet.bhsai.org](https://vnnadmet.bhsai.org/) |
+| **SwissADME** | ADME/drug-likeness predictor | [swissadme.ch](http://www.swissadme.ch/) |
+| **ADMETlab 2.0** | Comprehensive ADMET evaluation | [admetmesh.scbdd.com](https://admetmesh.scbdd.com/) |
+| **DSSTox** | Distributed Structure Searchable Toxicity DB | [comptox.epa.gov](https://comptox.epa.gov/dashboard) |
+
+---
+
+## Key Python libraries
+
+| Library | Use | Install |
+|---------|-----|---------|
+| **RDKit** | Cheminformatics swiss-army knife | `conda install -c conda-forge rdkit` |
+| **DeepChem** | ML for drug discovery | `pip install deepchem` |
+| **MDAnalysis** | MD trajectory analysis | `pip install MDAnalysis` |
+| **OpenMM** | GPU MD simulations | `conda install -c conda-forge openmm` |
+| **py3Dmol** | 3D molecular visualization | `pip install py3Dmol` |
+| **LangChain** | LLM application framework | `pip install langchain` |
+| **LangGraph** | Agentic AI workflows | `pip install langgraph` |
+| **biopython** | Bioinformatics utilities | `pip install biopython` |
+| **pydeseq2** | DESeq2 in Python | `pip install pydeseq2` |
+
+---
+
+## Learning resources
+
+### Computational drug discovery
+- [TeachOpenCADD](https://github.com/volkamerlab/teachopencadd) — Jupyter notebook tutorials on CADD
+- [Practical Cheminformatics](https://practicalcheminformatics.blogspot.com/) — Pat Walters' excellent blog
+- [SILCS documentation](https://silcsbio.com/) — Official SILCS methodology resources
+
+### Agentic AI & LLMs
+- [LangChain docs](https://python.langchain.com/)
+- [LangGraph documentation](https://langchain-ai.github.io/langgraph/)
+- [DeepLearning.AI short courses](https://www.deeplearning.ai/short-courses/) — Agentic AI, RAG, tool-use
+
+### Bioinformatics
+- [Bioconductor workflows](https://www.bioconductor.org/help/workflows/)
+- [DESeq2 vignette](https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
+- [Harvard Chan Bioinformatics Core training](https://hbctraining.github.io/main/)
+
+### Molecular dynamics
+- [CHARMM-GUI](https://www.charmm-gui.org/) — System builder for MD simulations
+- [GROMACS tutorials](http://www.mdtutorials.com/gmx/)
+- [OpenMM documentation](https://openmm.org/)
+
+---
+
+## Recommended books
+
+- *Introduction to Computational Chemistry* — Frank Jensen
+- *The Art of Drug Synthesis* — Johnson & Li
+- *Bioinformatics Algorithms* — Compeau & Pevzner (free online)
+- *Deep Learning for the Life Sciences* — Bharath Ramsundar et al. (O'Reilly)
