@@ -29,7 +29,7 @@ toc: false
 
 ## About me
 
-Computational Scientist with 12+ years of experience at the intersection of **predictive toxicology**, **drug design**, and **AI/ML for life sciences**. I build end-to-end computational pipelines that turn complex biological and chemical data into actionable safety and efficacy insights.
+Computational Scientist with 7+ years of experience at the intersection of **predictive toxicology**, **drug design**, and **AI/ML for life sciences**. I build end-to-end computational pipelines that turn complex biological and chemical data into actionable safety and efficacy insights.
 
 In my most recent role at [BHSAI / Henry M. Jackson Foundation](https://bhsai.org/) (DoD, DTRA, NIH, AFRL funded), I led computational toxicology research across several core areas:
 
@@ -43,7 +43,7 @@ In my most recent role at [BHSAI / Henry M. Jackson Foundation](https://bhsai.or
 
 Before that, I was a postdoctoral researcher at [Dr. MacKerell's CADD Center](https://mackerell.umaryland.edu/), University of Maryland, where I developed the [SILCS](https://silcsbio.com/) drug discovery framework — including a novel water network modeling method (SILCS-MC Water) — and built predictive models for hERG cardiotoxicity and protein–ligand binding affinity.
 
-I thrive in cross-functional environments, collaborating closely with biologists, toxicologists, and software engineers to translate in silico findings into real-world impact. I have a strong commitment to **New Approach Methodologies (NAM)** — integrating in vitro assays, multi-OMICS, and computational models to reduce animal testing and improve translational safety prediction.
+I thrive in cross-functional environments, collaborating closely with biologists, toxicologists, and software engineers to translate in silico findings into real-world impact. I have a strong commitment to **New Approach Methodologies (NAM)** integrating in vitro assays, multi-OMICS, and computational models to reduce animal testing and improve translational safety prediction.
 
 **I'm currently open to new opportunities** in computational toxicology, drug screening & discovery, or AI/ML for life sciences. [Get in touch →](mailto:hgchemical@gmail.com)
 

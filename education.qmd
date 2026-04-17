@@ -187,9 +187,7 @@ page-layout: full
       <div class="tl-period">Jun 2007 – Jun 2010</div>
       <div class="tl-title">B.E. · Chemical Engineering</div>
       <div class="tl-inst">Bharati Vidyapeeth College of Engineering (BVCOE) · Pune, India</div>
-      <span class="tl-grade">Distinction · Silver Medal (2008)</span>
       <ul>
-        <li>1st Rank, Entrance Examination for Diploma Holders in Chemical Engineering at BVCOE, 2007.</li>
         <li>1st Prize, Industry-Defined Problem "Economical Desulfurization in Refineries" (HPCL sponsored), MIT College of Engineering, Pune, 2009.</li>
         <li>1st Prize, Paper Presentation "CO₂ Sequestration by Producing Carbon-Based Fertilizer Using Biomass", Bhartiyam 2010, Pune.</li>
       </ul>
@@ -198,60 +196,50 @@ page-layout: full
 
 </ul>
 ```
-
 <hr class="section-rule">
+## Research highlights
 
-## Institutions
+### Computational toxicology & AI/ML (HJF · BHSAI · 2022–2025)
 
 ```{=html}
-<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
-
-  <div class="inst-card">
-    <div class="inst-card-body">
-      <h3>Mississippi State University</h3>
-      <p><strong>PhD Chemical Engineering</strong> · 2013–2018<br>
-      Starkville, Mississippi, USA<br>
-      Research in first-principles Monte Carlo simulations, DFT, and force field development under Prof. Neeraj Rai in the Dave C. Swalm School of Chemical Engineering.</p>
-      <a href="https://www.msstate.edu" target="_blank">msstate.edu ↗</a>
+<div class="research-grid">
+  <div class="rcard">
+    <div class="rcard-body">
+      <h4>Toxicogenomics & RNA-Seq pipelines</h4>
+      <p>Developed RNA-Seq pipelines for in vivo (rat, guinea pig) and in vitro (human hepatocyte) data. Conducted DEG analysis for liver and kidney injury biomarkers. Performed IVIVE and cross-species analysis. Published in <em>Int. J. Mol. Sci.</em> 2023, 2024.</p>
+      <span class="rcard-tag">RNA-Seq</span><span class="rcard-tag">Kallisto</span><span class="rcard-tag">DEG Analysis</span><span class="rcard-tag">IVIVE</span><span class="rcard-tag">Cross-Species</span><span class="rcard-tag">Liver Toxicity</span><span class="rcard-tag">Kidney Injury</span><span class="rcard-tag">Biomarkers</span>
     </div>
   </div>
-
-  <div class="inst-card">
-    <div class="inst-card-body">
-      <h3>IIT Hyderabad</h3>
-      <p><strong>M.Tech Chemical Engineering</strong> · 2011–2013<br>
-      Hyderabad, Telangana, India<br>
-      CGPA 9.17/10.0. Specialized in computational thermodynamics and interfacial science. Teaching Assistant under Prof. Saptarshi Majumdar.</p>
-      <a href="https://www.iith.ac.in" target="_blank">iith.ac.in ↗</a>
+  <div class="rcard">
+    <div class="rcard-body">
+      <h4>MEA neurotoxicity & dose-response modeling</h4>
+      <p>Neurotoxicity assessment of 200+ chemicals using high-dimensional Multi-Electrode Array (MEA) assay data. Integrated dose-response modeling (tcplfit2) and explored chemical structure–MEA response profile similarity relationships.</p>
+      <span class="rcard-tag">MEA</span><span class="rcard-tag">Neurotoxicity</span><span class="rcard-tag">tcplfit2</span><span class="rcard-tag">Dose-Response</span><span class="rcard-tag">High-Throughput Screening</span><span class="rcard-tag">Electrophysiology</span><span class="rcard-tag">NAM</span>
     </div>
   </div>
-
-  <div class="inst-card">
-    <div class="inst-card-body">
-      <h3>University of Maryland, Baltimore</h3>
-      <p><strong>Postdoctoral Researcher</strong> · 2018–2022<br>
-      Baltimore, Maryland, USA<br>
-      Computer-Aided Drug Design (CADD) Center, School of Pharmacy, under Prof. Alexander D. MacKerell Jr. — developer of the SILCS technology and CHARMM force field.</p>
-      <a href="https://www.umaryland.edu" target="_blank">umaryland.edu ↗</a>
+  <div class="rcard">
+    <div class="rcard-body">
+      <h4>ML/DL models for GPCR compound classification</h4>
+      <p>Developed traditional ML, DNN, GNN, and transformer-based LLM classifiers to identify active/inactive compounds against neurotoxicity-relevant GPCR targets, enhancing drug–target interaction predictions.</p>
+      <span class="rcard-tag">DNN</span><span class="rcard-tag">GNN</span><span class="rcard-tag">Transformer LLM</span><span class="rcard-tag">GPCR</span><span class="rcard-tag">DeepChem</span><span class="rcard-tag">QSAR</span><span class="rcard-tag">Drug–Target Interaction</span><span class="rcard-tag">PyTorch</span>
     </div>
   </div>
-
-  <div class="inst-card">
-    <div class="inst-card-body">
-      <h3>Henry M. Jackson Foundation · BHSAI</h3>
-      <p><strong>Computational Research Scientist II</strong> · 2022–2025<br>
-      Frederick, Maryland, USA<br>
-      Biomedical and Health Sciences AI (BHSAI) — DoD-funded computational toxicology and AI/ML research supporting military medicine and public health.</p>
-      <a href="https://www.hjf.org" target="_blank">hjf.org ↗</a>
+  <div class="rcard">
+    <div class="rcard-body">
+      <h4>Generative AI for drug repurposing</h4>
+      <p>Applied generative AI to design novel molecular structures and support drug repurposing workflows with integrated ADMET profiling via vNN-ADMET/SwissADME.</p>
+      <span class="rcard-tag">Generative AI</span><span class="rcard-tag">Drug Repurposing</span><span class="rcard-tag">ADMET</span><span class="rcard-tag">vNN-ADMET</span><span class="rcard-tag">SwissADME</span><span class="rcard-tag">De Novo Design</span><span class="rcard-tag">LLM</span>
     </div>
   </div>
-
+  <div class="rcard">
+    <div class="rcard-body">
+      <h4>Data curation & chemical space visualization</h4>
+      <p>Managed and analyzed large-scale biological and chemical datasets using PCA, t-SNE, UMAP, clustering, and heatmaps. Performed feature importance, pattern recognition, and statistical interpretation across multi-OMICS data.</p>
+      <span class="rcard-tag">PCA</span><span class="rcard-tag">UMAP</span><span class="rcard-tag">t-SNE</span><span class="rcard-tag">Clustering</span><span class="rcard-tag">Multi-OMICS</span><span class="rcard-tag">Feature Importance</span><span class="rcard-tag">Cheminformatics</span><span class="rcard-tag">Data Visualization</span>
+    </div>
+  </div>
 </div>
 ```
-
-<hr class="section-rule">
-
-## Research highlights
 
 ### Drug design & CADD (UMB · 2018–2022)
 
@@ -260,85 +248,43 @@ page-layout: full
   <div class="rcard">
     <div class="rcard-body">
       <h4>SILCS-based drug discovery framework</h4>
-      <p>Spearheaded end-to-end computational workflows — protein structure preparation, SILCS FragMaps, hotspot analysis, pharmacophore modeling, virtual screening, molecular docking, and SAR analysis — for efficient hit identification and lead prioritization.</p>
-      <span class="rcard-tag">SILCS</span><span class="rcard-tag">Virtual Screening</span><span class="rcard-tag">Docking</span><span class="rcard-tag">SAR</span>
+      <p>Spearheaded end-to-end computational workflows — protein structure preparation, SILCS FragMaps, hotspot analysis, pharmacophore modeling, virtual screening, molecular docking, and SAR analysis — for hit identification and lead prioritization.</p>
+      <span class="rcard-tag">SILCS</span><span class="rcard-tag">FragMaps</span><span class="rcard-tag">Virtual Screening</span><span class="rcard-tag">Docking</span><span class="rcard-tag">SAR</span><span class="rcard-tag">Pharmacophore</span><span class="rcard-tag">Hit Identification</span><span class="rcard-tag">Lead Optimization</span>
     </div>
   </div>
   <div class="rcard">
     <div class="rcard-body">
       <h4>Protein–ligand binding affinity & FEP benchmarking</h4>
-      <p>Employed SILCS to compute protein-ligand relative binding affinities and benchmarked against FEP methods to validate accuracy and enhance reliability for drug design. Published in <em>Chem. Sci.</em> 2021.</p>
-      <span class="rcard-tag">SILCS</span><span class="rcard-tag">FEP</span><span class="rcard-tag">Binding Affinity</span>
+      <p>Employed SILCS to compute protein-ligand relative binding affinities and benchmarked against FEP methods to validate accuracy for drug design. Published in <em>Chem. Sci.</em> 2021.</p>
+      <span class="rcard-tag">SILCS</span><span class="rcard-tag">FEP</span><span class="rcard-tag">Binding Affinity</span><span class="rcard-tag">Free Energy</span><span class="rcard-tag">Lead Optimization</span><span class="rcard-tag">Protein–Ligand</span><span class="rcard-tag">MD</span>
     </div>
   </div>
   <div class="rcard">
     <div class="rcard-body">
       <h4>SILCS-MC Water — novel water network modeling</h4>
-      <p>Developed and validated a novel technique to accurately predict water networks in protein binding pockets and quantify their impact on ligand binding affinity and binding pose.</p>
-      <span class="rcard-tag">Water Networks</span><span class="rcard-tag">Monte Carlo</span><span class="rcard-tag">SILCS</span>
+      <p>Developed and validated a novel technique to accurately predict water networks in protein binding pockets and quantify their impact on ligand binding affinity and pose.</p>
+      <span class="rcard-tag">Water Networks</span><span class="rcard-tag">Monte Carlo</span><span class="rcard-tag">SILCS</span><span class="rcard-tag">Solvation</span><span class="rcard-tag">Binding Pose</span><span class="rcard-tag">Method Development</span><span class="rcard-tag">Drug Design</span>
     </div>
   </div>
   <div class="rcard">
     <div class="rcard-body">
       <h4>hERG cardiotoxicity prediction</h4>
       <p>Designed predictive models for hERG1 blockade integrating SILCS modeling and physicochemical properties to support safety pharmacology profiling. Published in <em>Chemistry</em> 2022.</p>
-      <span class="rcard-tag">hERG</span><span class="rcard-tag">Safety Pharmacology</span><span class="rcard-tag">ML</span>
+      <span class="rcard-tag">hERG</span><span class="rcard-tag">Cardiotoxicity</span><span class="rcard-tag">Safety Pharmacology</span><span class="rcard-tag">ML</span><span class="rcard-tag">Ion Channel</span><span class="rcard-tag">QSAR</span><span class="rcard-tag">Drug Safety</span>
     </div>
   </div>
   <div class="rcard">
     <div class="rcard-body">
       <h4>Polarizable force field & MD simulations</h4>
-      <p>Designed SILCS workflow for Drude polarizable force fields and MD to assess protein-ligand energetics, molecular interactions, and docking scores with higher accuracy than additive force fields.</p>
-      <span class="rcard-tag">Polarizable FF</span><span class="rcard-tag">MD</span><span class="rcard-tag">CHARMM</span>
+      <p>Designed SILCS workflow for Drude polarizable force fields and MD to assess protein-ligand energetics, molecular interactions, and docking scores with higher physical accuracy than additive force fields.</p>
+      <span class="rcard-tag">Polarizable FF</span><span class="rcard-tag">Drude</span><span class="rcard-tag">MD</span><span class="rcard-tag">CHARMM</span><span class="rcard-tag">Protein Energetics</span><span class="rcard-tag">Force Field</span><span class="rcard-tag">Electronic Polarizability</span>
     </div>
   </div>
   <div class="rcard">
     <div class="rcard-body">
       <h4>COVID-19 antiviral & imaging probe development</h4>
-      <p>Applied SILCS CADD workflow to SARS-CoV-2 spike protein for antiviral drug development. Separately investigated alpha-synuclein fibril binding using polarizable SILCS and SAR analysis for imaging probe development.</p>
-      <span class="rcard-tag">COVID-19</span><span class="rcard-tag">Alpha-Synuclein</span><span class="rcard-tag">CADD</span>
-    </div>
-  </div>
-</div>
-```
-
-### Computational toxicology & AI/ML (BHSAI · 2022–2025)
-
-```{=html}
-<div class="research-grid">
-  <div class="rcard">
-    <div class="rcard-body">
-      <h4>Toxicogenomics & RNA-Seq pipelines</h4>
-      <p>Developed RNA-Seq pipelines for in vivo (rat, guinea pig) and in vitro (human hepatocyte) data. Conducted DEG analysis for liver and kidney injury biomarkers. Performed in vitro–in vivo correlation and cross-species analysis to enhance translational relevance. Published in <em>Int. J. Mol. Sci.</em> 2023, 2024.</p>
-      <span class="rcard-tag">RNA-Seq</span><span class="rcard-tag">Kallisto</span><span class="rcard-tag">IVIVE</span><span class="rcard-tag">Cross-Species</span>
-    </div>
-  </div>
-  <div class="rcard">
-    <div class="rcard-body">
-      <h4>MEA neurotoxicity & dose-response modeling</h4>
-      <p>Neurotoxicity assessment of 200+ chemicals using high-dimensional Multi-Electrode Array (MEA) assay data. Integrated high-throughput data with dose-response modeling (tcplfit2) and explored chemical structure–MEA response profile similarity relationships.</p>
-      <span class="rcard-tag">MEA</span><span class="rcard-tag">tcplfit2</span><span class="rcard-tag">Neurotox</span><span class="rcard-tag">Dose-Response</span>
-    </div>
-  </div>
-  <div class="rcard">
-    <div class="rcard-body">
-      <h4>ML/DL models for GPCR compound classification</h4>
-      <p>Developed traditional ML, DNN, GNN, and transformer-based LLM classifiers to identify active/inactive compounds against neurotoxicity-relevant GPCR targets. Leveraged compound libraries from public databases to enhance drug-target interaction predictions.</p>
-      <span class="rcard-tag">GNN</span><span class="rcard-tag">Transformer LLM</span><span class="rcard-tag">GPCR</span><span class="rcard-tag">DeepChem</span>
-    </div>
-  </div>
-  <div class="rcard">
-    <div class="rcard-body">
-      <h4>Generative AI for drug repurposing</h4>
-      <p>Applied generative AI techniques to design novel molecular structures, enhancing model predictions and supporting drug repurposing applications with integrated ADMET profiling via vNN-ADMET/SwissADME.</p>
-      <span class="rcard-tag">Generative AI</span><span class="rcard-tag">Drug Repurposing</span><span class="rcard-tag">ADMET</span>
-    </div>
-  </div>
-  <div class="rcard">
-    <div class="rcard-body">
-      <h4>Data curation & chemical space visualization</h4>
-      <p>Managed and visualized large-scale biological and chemical datasets using PCA, t-SNE, UMAP, clustering, and heatmaps. Performed feature importance, data cleaning, pattern recognition, and statistical interpretation across multi-OMICS datasets.</p>
-      <span class="rcard-tag">UMAP</span><span class="rcard-tag">t-SNE</span><span class="rcard-tag">Multi-OMICS</span><span class="rcard-tag">Cheminformatics</span>
+      <p>Applied SILCS CADD workflow to SARS-CoV-2 spike protein for antiviral drug development. Investigated alpha-synuclein fibril binding using polarizable SILCS and SAR analysis for imaging probe development.</p>
+      <span class="rcard-tag">COVID-19</span><span class="rcard-tag">SARS-CoV-2</span><span class="rcard-tag">Antiviral</span><span class="rcard-tag">Alpha-Synuclein</span><span class="rcard-tag">Parkinson's</span><span class="rcard-tag">CADD</span><span class="rcard-tag">SAR</span>
     </div>
   </div>
 </div>
@@ -351,29 +297,29 @@ page-layout: full
   <div class="rcard">
     <div class="rcard-body">
       <h4>Vapor–liquid equilibria via DFT & Monte Carlo</h4>
-      <p>Predicted VLE, saturated vapor pressures, critical properties, and boiling points for hydrofluorocarbons, CO₂, SO₂, and argon using first-principles DFT/Monte Carlo in CP2K. Employed multiple DFT exchange-correlation functionals for condensed-phase properties. 7 publications.</p>
-      <span class="rcard-tag">DFT</span><span class="rcard-tag">Monte Carlo</span><span class="rcard-tag">CP2K</span><span class="rcard-tag">VLE</span>
+      <p>Predicted VLE, saturated vapor pressures, critical properties, and boiling points for hydrofluorocarbons, CO₂, SO₂, and argon using first-principles DFT/Monte Carlo in CP2K. 7 publications.</p>
+      <span class="rcard-tag">DFT</span><span class="rcard-tag">Monte Carlo</span><span class="rcard-tag">CP2K</span><span class="rcard-tag">VLE</span><span class="rcard-tag">HFCs</span><span class="rcard-tag">Refrigerants</span><span class="rcard-tag">Thermodynamics</span><span class="rcard-tag">Exchange-Correlation</span>
     </div>
   </div>
   <div class="rcard">
     <div class="rcard-body">
       <h4>CO₂ absorption in ionic liquids</h4>
-      <p>Predicted adsorption equilibria, transport properties, vibrational spectra, and structural mechanisms for CO₂ and other gases in phosphonium-based ionic liquids via first-principles simulations.</p>
-      <span class="rcard-tag">Ionic Liquids</span><span class="rcard-tag">CO₂ Capture</span><span class="rcard-tag">DFT</span>
+      <p>Predicted adsorption equilibria, transport properties, vibrational spectra, and structural mechanisms for CO₂ in phosphonium-based ionic liquids via first-principles simulations.</p>
+      <span class="rcard-tag">Ionic Liquids</span><span class="rcard-tag">CO₂ Capture</span><span class="rcard-tag">DFT</span><span class="rcard-tag">Adsorption</span><span class="rcard-tag">Carbon Capture</span><span class="rcard-tag">Transport Properties</span><span class="rcard-tag">Green Chemistry</span>
     </div>
   </div>
   <div class="rcard">
     <div class="rcard-body">
       <h4>Algorithm development: cluster translation moves</h4>
       <p>Developed a novel "cluster translation moves" algorithm in the CP2K Monte Carlo suite, enabling efficient sampling of strongly associating fluids that were previously computationally intractable.</p>
-      <span class="rcard-tag">Algorithm</span><span class="rcard-tag">CP2K</span><span class="rcard-tag">Monte Carlo</span>
+      <span class="rcard-tag">Algorithm Development</span><span class="rcard-tag">CP2K</span><span class="rcard-tag">Monte Carlo</span><span class="rcard-tag">Sampling</span><span class="rcard-tag">Associating Fluids</span><span class="rcard-tag">Method Development</span>
     </div>
   </div>
   <div class="rcard">
     <div class="rcard-body">
       <h4>Force field development & environmental contaminants</h4>
-      <p>Developed classical TraPPE force fields for chloroethenes and fluorinated alkanes. Predicted octanol-water partition coefficients and solvation free energies for NDMA and trichloroethylene — key environmental contaminants.</p>
-      <span class="rcard-tag">TraPPE</span><span class="rcard-tag">Force Field</span><span class="rcard-tag">NDMA</span><span class="rcard-tag">Environment</span>
+      <p>Developed classical TraPPE force fields for chloroethenes and fluorinated alkanes. Predicted octanol-water partition coefficients and solvation free energies for NDMA and trichloroethylene.</p>
+      <span class="rcard-tag">TraPPE</span><span class="rcard-tag">Force Field</span><span class="rcard-tag">NDMA</span><span class="rcard-tag">Trichloroethylene</span><span class="rcard-tag">Partition Coefficient</span><span class="rcard-tag">Solvation Free Energy</span><span class="rcard-tag">Environmental Contaminants</span>
     </div>
   </div>
 </div>
@@ -386,8 +332,8 @@ page-layout: full
   <div class="rcard">
     <div class="rcard-body">
       <h4>Interfacial properties via dissipative particle dynamics</h4>
-      <p>Computed interfacial tension and related properties for multiple immiscible and partially miscible liquid systems using dissipative particle dynamics (DPD) simulations. Work published in <em>Chem. Phys. Lett.</em> 2014.</p>
-      <span class="rcard-tag">DPD</span><span class="rcard-tag">Interfacial Science</span><span class="rcard-tag">Thermodynamics</span>
+      <p>Computed interfacial tension and related properties for multiple immiscible and partially miscible liquid systems using dissipative particle dynamics (DPD) simulations. Published in <em>Chem. Phys. Lett.</em> 2014.</p>
+      <span class="rcard-tag">DPD</span><span class="rcard-tag">Interfacial Tension</span><span class="rcard-tag">Mesoscale Simulation</span><span class="rcard-tag">Liquid Mixtures</span><span class="rcard-tag">Emulsions</span><span class="rcard-tag">Thermodynamics</span><span class="rcard-tag">Process Design</span>
     </div>
   </div>
 </div>

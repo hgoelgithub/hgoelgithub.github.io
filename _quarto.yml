@@ -34,7 +34,7 @@ website:
   sidebar: false
 
   page-footer:
-    left: "© 2025 Himanshu Goel"
+    left: "© 2026 Himanshu Goel"
     right:
       - icon: github
         href: https://github.com/himanshu-goel
@@ -46,8 +46,8 @@ format:
     theme:
       light: [cosmo, assets/custom.scss]
       dark: [darkly, assets/custom-dark.scss]
-    code-fold: true
-    code-tools: true
+    code-fold: false
+    code-tools: false
     toc: true
     toc-depth: 3
     highlight-style: github
