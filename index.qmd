@@ -7,7 +7,7 @@ toc: false
 ::: {.hero-banner}
 # *Himanshu Goel*
 ::: {.tagline} 
-📍 Ellicott City, MD · [hgchemical@gmail.com](mailto:hgchemical@gmail.com) · [Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID&hl=en&sortby=pubdate)
+📍 Ellicott City, MD · [hgchemical@gmail.com](mailto:hgchemical@gmail.com) · [Google Scholar](https://scholar.google.com/citations?user=zpnwRKAAAAAJ&hl=en)
 :::
 
 ::: {.badge-row}
@@ -16,10 +16,10 @@ toc: false
 [🧬 Computational Drug Discovery]{.hero-badge}
 [🧪 Toxicogenomics]{.hero-badge}
 [🤖 Agentic AI / LLM]{.hero-badge}
-[🤖 Machine Learning]{.hero-badge}
+[🧠 Machine Learning]{.hero-badge}
 [📊 Cheminformatics]{.hero-badge}
 [🔬 Bioinformatics]{.hero-badge}
-[📊 Multi-OMICS]{.hero-badge}
+[🔭 Multi-OMICS]{.hero-badge}
 [⚙️ Monte Carlo & Molecular Dynamics]{.hero-badge}
 :::
 :::
@@ -48,7 +48,7 @@ I thrive in cross-functional environments, collaborating closely with biologists
 **I'm currently open to new opportunities** in computational toxicology, drug screening & discovery, or AI/ML for life sciences. [Get in touch →](mailto:hgchemical@gmail.com)
 
 → [See my full education & research journey](education.qmd)  
-→ [Publications on Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID&hl=en&sortby=pubdate)
+→ [Publications on Google Scholar](https://scholar.google.com/citations?user=zpnwRKAAAAAJ&hl=en)
 
 ---
 

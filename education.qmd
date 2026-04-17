@@ -341,7 +341,7 @@ page-layout: full
 
 <hr class="section-rule">
 
-## Awards & honours
+## Awards & honors
 
 ```{=html}
 <ul class="award-list">
