@@ -148,7 +148,7 @@ I thrive in cross-functional environments, collaborating closely with biologists
   <div class="skill-card">
     <div class="skill-card-header">
       <span class="skill-card-icon">💻</span>
-      <span class="skill-card-title">Programming Languages</span>
+      <span class="skill-card-title">Programming & Tools</span>
     </div>
     <div class="skill-pills">
       <span class="skill-pill">Python</span>
@@ -160,6 +160,11 @@ I thrive in cross-functional environments, collaborating closely with biologists
       <span class="skill-pill">SQL</span>
       <span class="skill-pill">OpenMP</span>
       <span class="skill-pill">OpenACC</span>
+      <span class="skill-pill">GitHub</span>
+      <span class="skill-pill">HPC Clusters</span>
+      <span class="skill-pill">Docker</span>
+      <span class="skill-pill">AWS</span>
+      <span class="skill-pill">GCP</span>
     </div>
   </div>
 
@@ -214,61 +219,5 @@ I thrive in cross-functional environments, collaborating closely with biologists
       <span class="skill-pill">RDKit</span>
     </div>
   </div>
-
-  <div class="skill-card">
-    <div class="skill-card-header">
-      <span class="skill-card-icon">☠️</span>
-      <span class="skill-card-title">Computational Toxicology</span>
-    </div>
-    <div class="skill-pills">
-      <span class="skill-pill">vNN-ADMET</span>
-      <span class="skill-pill">SwissADME</span>
-      <span class="skill-pill">tcplfit2</span>
-      <span class="skill-pill">Kallisto</span>
-      <span class="skill-pill">RNA-Seq</span>
-      <span class="skill-pill">DESeq2</span>
-      <span class="skill-pill">MEA Data Analysis</span>
-      <span class="skill-pill">Dose-Response Modeling</span>
-      <span class="skill-pill">IVIVE</span>
-      <span class="skill-pill">Pathway Enrichment</span>
-      <span class="skill-pill">Neurotoxicity Profiling</span>
-      <span class="skill-pill">Multi Electrode Array (MEA)</span>
-    </div>
-  </div>
-
-  <div class="skill-card">
-    <div class="skill-card-header">
-      <span class="skill-card-icon">🛠️</span>
-      <span class="skill-card-title">Tools & Platforms</span>
-    </div>
-    <div class="skill-pills">
-      <span class="skill-pill">GitHub</span>
-      <span class="skill-pill">HPC Clusters</span>
-      <span class="skill-pill">Docker</span>
-      <span class="skill-pill">Cloud Computing</span>
-      <span class="skill-pill">AWS</span>
-      <span class="skill-pill">GCP</span>
-    </div>
-  </div>
-
-  <div class="skill-card">
-    <div class="skill-card-header">
-      <span class="skill-card-icon">🔗</span>
-      <span class="skill-card-title">Integrative Safety Science</span>
-    </div>
-    <div class="skill-pills">
-      <span class="skill-pill">Genomics</span>
-      <span class="skill-pill">Bioinformatics</span>
-      <span class="skill-pill">Toxicology</span>
-      <span class="skill-pill">Multi-OMICS Integration</span>
-      <span class="skill-pill">Safety Assessment</span>
-      <span class="skill-pill">Chemical Risk Analysis</span>
-      <span class="skill-pill">IVIVE</span>
-      <span class="skill-pill">Biomarker Discovery</span>
-      <span class="skill-pill">Cross-Species Translation</span>
-      <span class="skill-pill">Human Health Impact</span>
-    </div>
-  </div>
-
 </div>
 ```

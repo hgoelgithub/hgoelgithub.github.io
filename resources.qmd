@@ -53,7 +53,7 @@ A curated collection of open resources I find useful in my daily research. Contr
 
 ## AI agents for biomedical research
 
-A growing ecosystem of LLM-based agents is transforming biomedical science. Below is a curated overview across three domains. Full interactive map: [broad.io/AIAgent](http://broad.io/AIAgent)
+A growing ecosystem of LLM-based agents is transforming biomedical science. Below is a curated overview across three domains.
 
 ### Drug discovery & development
 
