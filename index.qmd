@@ -11,9 +11,9 @@ toc: false
 :::
 
 ::: {.badge-row}
-[☠️ Computational Toxicology]{.hero-badge}
+[☠️ Computational Chemistry, Biology, & Toxicology]{.hero-badge}
+[🧬 Drug Discovery]{.hero-badge}
 [🧫 New Approach Methodologies]{.hero-badge}
-[🧬 Computational Drug Discovery]{.hero-badge}
 [🧪 Toxicogenomics]{.hero-badge}
 [🤖 Agentic AI / LLM]{.hero-badge}
 [🧠 Machine Learning]{.hero-badge}
