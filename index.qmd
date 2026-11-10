@@ -5,22 +5,22 @@ toc: false
 ---
 
 ::: {.hero-banner}
-# *Himanshu Goel*
+# *Himanshu Goel, Ph.D., PMP*
 ::: {.tagline} 
-📍 Ellicott City, MD · [hgchemical@gmail.com](mailto:hgchemical@gmail.com) · [Google Scholar](https://scholar.google.com/citations?user=zpnwRKAAAAAJ&hl=en)
+📍 Alachua, FL · [hgchemical@gmail.com](mailto:hgchemical@gmail.com) · [LinkedIn](https://www.linkedin.com/in/himanshu-goel-72a58a5b/) · [Google Scholar](https://scholar.google.com/citations?user=zpnwRKAAAAAJ&hl=en)
 :::
 
 ::: {.badge-row}
-[☠️ Computational Chemistry, Biology, & Toxicology]{.hero-badge}
-[🧬 Drug Discovery]{.hero-badge}
-[🧫 New Approach Methodologies]{.hero-badge}
+[🧬 Scientific Computing & Workflows]{.hero-badge}
+[🤖 AI/ML for Life Sciences]{.hero-badge}
+[⚙️ HPC & Cloud Workflows]{.hero-badge}
+[☠️ Computational Toxicology]{.hero-badge}
 [🧪 Toxicogenomics]{.hero-badge}
-[🤖 Agentic AI / LLM]{.hero-badge}
-[🧠 Machine Learning]{.hero-badge}
-[📊 Cheminformatics]{.hero-badge}
-[🔬 Bioinformatics]{.hero-badge}
-[🔭 Multi-OMICS]{.hero-badge}
-[⚙️ Monte Carlo & Molecular Dynamics]{.hero-badge}
+[📊 Cheminformatics & ADMET]{.hero-badge}
+[🧫 New Approach Methodologies]{.hero-badge}
+[🔬 CADD & Molecular Modeling]{.hero-badge}
+[🧠 Agentic AI / LLM]{.hero-badge}
+[📈 Reproducible Data Pipelines]{.hero-badge}
 :::
 :::
 
@@ -29,23 +29,22 @@ toc: false
 
 ## About me
 
-Computational Scientist with 7+ years of experience at the intersection of **predictive toxicology**, **drug design**, and **AI/ML for life sciences**. I build end-to-end computational pipelines that turn complex biological and chemical data into actionable safety and efficacy insights.
+I am a scientific computing and data-science professional with a Ph.D. in Chemical Engineering, PMP certification, and a multidisciplinary background in computational biology, toxicology, cheminformatics, and AI/ML for life sciences. My work spans scientific workflow development, high-performance computing, molecular modeling, data-centric analysis, and prototype AI systems for drug safety and discovery.
 
-In my most recent role at [BHSAI / Henry M. Jackson Foundation](https://bhsai.org/) (DoD, DTRA, NIH, AFRL funded), I led computational toxicology research across several core areas:
+In my recent role at [BHSAI / Henry M. Jackson Foundation](https://bhsai.org/), I developed end-to-end computational toxicology workflows for translational research across DoD-, DTRA-, NIH-, and AFRL-funded programs. My contributions included:
 
-- **Data curation & visualization:** Extracted actionable insights from large-scale chemical and biological datasets using PCA, t-SNE, UMAP, clustering, and heatmaps.
-- **ML for compound classification:** Trained DNN, GNN, and transformer LLM classifiers to predict compound activity at neurotoxicity-relevant GPCR targets.
-- **Generative AI:** Designed novel molecular structures and supported drug repurposing.
-- **Neurotoxicity:** Assessed 200+ chemicals using high-throughput Multi-Electrode Array (MEA) data, integrating dose-response modeling (tcplfit2) and chemical–protein interaction networks to build mechanistic toxicity profiles.
-- **Toxicogenomics:** Developed RNA-Seq pipelines across rat, guinea pig, and human hepatocyte systems — identifying biomarkers for liver and kidney injury and performing cross-species IVIVE analysis. Published in *Int. J. Mol. Sci.* (2023, 2024).
-- **Integrative safety science:** Connected genomics, bioinformatics, and toxicology to improve understanding of chemical impact on human health and strengthen safety assessments.
-- **ADMET profiling:** Conducted risk assessment of chemical compounds using vNN-ADMET and SwissADME.
+- **Scientific workflow delivery:** Translating scientific questions into reproducible analytical plans, resource-aware computational pipelines, validation strategies, and decision-ready outputs for cross-functional teams.
+- **ML-enabled neurotoxicity profiling:** Building predictive models for neurotoxicity-relevant targets, integrating curated bioactivity data, molecular descriptors, and class-imbalance-aware ML workflows.
+- **AI-enabled drug safety and discovery prototyping:** Developing Python-based workflow prototypes using classical ML, DNNs, GNNs, transformer models, and agentic AI approaches for prioritization and compound intelligence.
+- **MEA and dose-response analysis:** Analyzing 200+ chemicals with high-dimensional Multi-Electrode Array (MEA) data, applying quality review and concentration-response modeling to identify neurotoxic liabilities.
+- **Toxicogenomics and biomarker discovery:** Building reusable RNA-Seq pipelines for rat, guinea pig, and human hepatocyte studies to detect injury-associated biomarkers and support in vitro–in vivo interpretation.
+- **Integrative safety science:** Connecting genomics, bioinformatics, toxicology, chemistry, and ADMET evidence to improve mechanistic understanding of chemical impact on human health.
 
-Before that, I was a postdoctoral researcher at [Dr. MacKerell's CADD Center](https://mackerell.umaryland.edu/), University of Maryland, where I developed the [SILCS](https://silcsbio.com/) drug discovery framework — including a novel water network modeling method (SILCS-MC Water) — and built predictive models for hERG cardiotoxicity and protein–ligand binding affinity.
+Earlier, I was a postdoctoral researcher at [Dr. MacKerell's CADD Center](https://mackerell.umaryland.edu/), University of Maryland, where I developed the [SILCS](https://silcsbio.com/) computational drug discovery framework, including water-network modeling and binding-affinity workflows for small-molecule design and safety profiling.
 
-I thrive in cross-functional environments, collaborating closely with biologists, toxicologists, and software engineers to translate in silico findings into real-world impact. I have a strong commitment to **New Approach Methodologies (NAM)** integrating in vitro assays, multi-OMICS, and computational models to reduce animal testing and improve translational safety prediction.
+I work effectively across biology, toxicology, chemistry, software engineering, and IT teams to turn complex datasets and molecular evidence into actionable insight. I am especially interested in computational safety science, new approach methodologies (NAMs), and AI-assisted scientific workflows that improve translational decision-making.
 
-**I'm currently open to new opportunities** in computational toxicology, drug screening & discovery, or AI/ML for life sciences. [Get in touch →](mailto:hgchemical@gmail.com)
+**I'm currently open to new opportunities** in scientific computing, computational toxicology, drug screening & discovery, or AI/ML for life sciences. [Get in touch →](mailto:hgchemical@gmail.com)
 
 → [See my full education & research journey](education.qmd)  
 → [Publications on Google Scholar](https://scholar.google.com/citations?user=zpnwRKAAAAAJ&hl=en)
