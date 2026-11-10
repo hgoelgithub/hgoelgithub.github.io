@@ -5,10 +5,139 @@ toc: true
 page-layout: full
 ---
 
+```{=html}
+<style>
+.tutorial-intro {
+  max-width: 860px;
+  margin: 0 auto 1.5rem;
+  color: #536273;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+.tutorial-index {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+.tutorial-index-card {
+  padding: 1.1rem 1.2rem;
+  border: 1px solid #dfe7ef;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #fff, #f7fafc);
+  box-shadow: 0 3px 12px rgba(31, 57, 78, .05);
+}
+.tutorial-index-card h3 {
+  margin: 0 0 .65rem;
+  color: #1a5276;
+  font-size: 1rem;
+}
+.tutorial-index-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+.tutorial-index-card li {
+  margin: .35rem 0;
+  line-height: 1.4;
+}
+.tutorial-index-card a {
+  text-decoration: none;
+}
+.tutorial-index-card a:hover {
+  text-decoration: underline;
+}
+.tutorial-section {
+  scroll-margin-top: 5rem;
+}
+.tut-table { margin: 1rem 0 2rem; }
+.tut-table td:first-child,
+.tut-table th:first-child {
+  width: 3.5rem;
+  text-align: center;
+  color: #748292;
+}
+.tut-table td:last-child,
+.tut-table th:last-child {
+  min-width: 115px;
+  text-align: center;
+}
+.tut-table img {
+  max-width: 135px;
+  height: auto;
+}
+@media (max-width: 640px) {
+  .tutorial-index { grid-template-columns: 1fr; }
+  .tut-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .tut-table thead,
+  .tut-table tbody { display: table; width: 100%; }
+  .tut-table { min-width: 680px; }
+}
+</style>
+```
+
+<div class="tutorial-intro">
+
 This page mirrors the folder structure of the
 [computational-science-tutorials](https://github.com/hgoelgithub/computational-science-tutorials) GitHub repo — one section per top-level folder.
 Click **Open in Colab** to run any notebook instantly in your browser; Python scripts (`.py`)
 link to their source on GitHub instead.
+
+</div>
+
+## Browse tutorials
+
+Choose a topic to jump to its tutorials. The catalog below follows the organization of the source repository.
+
+```{=html}
+<nav class="tutorial-index" aria-label="Tutorial topics">
+  <section class="tutorial-index-card">
+    <h3>Drug discovery &amp; chemistry</h3>
+    <ul>
+      <li><a href="#cheminformatics">Cheminformatics</a></li>
+      <li><a href="#cheminformatics-gnn">GNN scripts &amp; notebooks</a></li>
+      <li><a href="#free-energy-perturbation">Free energy perturbation</a></li>
+      <li><a href="#generative-ai-molecules">Generative AI for molecules</a></li>
+      <li><a href="#chem-agent-pipeline">Chem agent pipeline</a></li>
+    </ul>
+  </section>
+  <section class="tutorial-index-card">
+    <h3>AI, machine learning &amp; agents</h3>
+    <ul>
+      <li><a href="#machine-learning">Machine learning &amp; deep learning</a></li>
+      <li><a href="#agentic-ai">Agentic AI for science</a></li>
+      <li><a href="#tox-agents">Tox agents</a></li>
+      <li><a href="#mcp">Model Context Protocol (MCP)</a></li>
+      <li><a href="#llm-fine-tuning">LLM fine-tuning</a></li>
+      <li><a href="#nlp">Natural language processing</a></li>
+    </ul>
+  </section>
+  <section class="tutorial-index-card">
+    <h3>Toxicology &amp; biomedical science</h3>
+    <ul>
+      <li><a href="#bioinformatics">Bioinformatics &amp; toxicogenomics</a></li>
+      <li><a href="#toxicity-endpoints">Toxicity endpoints</a></li>
+      <li><a href="#nam">New Approach Methodologies</a></li>
+      <li><a href="#neurotoxicity">Neurotoxicity profiler</a></li>
+      <li><a href="#organoids">Organoids</a></li>
+      <li><a href="#multi-omics">Multi-omics</a></li>
+    </ul>
+  </section>
+  <section class="tutorial-index-card">
+    <h3>Computing &amp; methods</h3>
+    <ul>
+      <li><a href="#ci-cd-protein-design">CI/CD &amp; protein design</a></li>
+      <li><a href="#python-primers">Python ecosystem primers</a></li>
+      <li><a href="#visualization">Visualization</a></li>
+      <li><a href="#imaging">Imaging</a></li>
+      <li><a href="#extra">Extra tutorials</a></li>
+    </ul>
+  </section>
+</nav>
+```
 
 ::: {.callout-tip}
 ## Running in Colab
@@ -25,7 +154,7 @@ Found a bug or discrepancy? Please [get in touch via email](mailto:hgchemical@gm
 
 ---
 
-## Cheminformatics
+## Cheminformatics {#cheminformatics .tutorial-section}
 
 RDKit, fingerprints, docking, and ML for molecular properties and toxicity.
 
@@ -158,7 +287,7 @@ RDKit, fingerprints, docking, and ML for molecular properties and toxicity.
 
 ---
 
-## Cheminformatics — GNN scripts & notebooks
+## Cheminformatics — GNN scripts & notebooks {#cheminformatics-gnn .tutorial-section}
 
 Standalone graph-neural-network architectures as runnable Python scripts, plus companion notebooks on GNN toxicology modeling and the PyTorch/TensorFlow basics they build on.
 
@@ -228,7 +357,7 @@ Standalone graph-neural-network architectures as runnable Python scripts, plus c
 
 ---
 
-## Machine learning & deep learning
+## Machine learning & deep learning {#machine-learning .tutorial-section}
 
 Baselines and modern architectures for molecular property and activity prediction.
 
@@ -284,7 +413,7 @@ Baselines and modern architectures for molecular property and activity predictio
 
 ---
 
-## Agentic AI for science
+## Agentic AI for science {#agentic-ai .tutorial-section}
 
 LLM agents and retrieval-augmented pipelines over biomedical and chemical data.
 
@@ -354,7 +483,7 @@ LLM agents and retrieval-augmented pipelines over biomedical and chemical data.
 
 ---
 
-## Bioinformatics & toxicogenomics
+## Bioinformatics & toxicogenomics {#bioinformatics .tutorial-section}
 
 RNA-Seq differential expression, cross-species correlation, and MEA dose-response.
 
@@ -396,7 +525,7 @@ RNA-Seq differential expression, cross-species correlation, and MEA dose-respons
 
 ---
 
-## Toxicity endpoints
+## Toxicity endpoints {#toxicity-endpoints .tutorial-section}
 
 One notebook per major organ-toxicity endpoint, plus multitask and explainability models.
 
@@ -480,7 +609,7 @@ One notebook per major organ-toxicity endpoint, plus multitask and explainabilit
 
 ---
 
-## New Approach Methodologies (NAM)
+## New Approach Methodologies (NAM) {#nam .tutorial-section}
 
 Animal-free toxicology: methods, weight-of-evidence workflows, and case studies.
 
@@ -543,7 +672,7 @@ Animal-free toxicology: methods, weight-of-evidence workflows, and case studies.
 
 ---
 
-## Neurotoxicity profiler
+## Neurotoxicity profiler {#neurotoxicity .tutorial-section}
 
 Multi-assay neurotoxicity profiling, from a first pass to a production build.
 
@@ -578,7 +707,7 @@ Multi-assay neurotoxicity profiling, from a first pass to a production build.
 
 ---
 
-## Organoids
+## Organoids {#organoids .tutorial-section}
 
 Toxicity analysis from organoid assay readouts.
 
@@ -599,7 +728,7 @@ Toxicity analysis from organoid assay readouts.
 
 ---
 
-## Tox agents
+## Tox agents {#tox-agents .tutorial-section}
 
 Toxicology background and an LLM agent that runs an assessment workflow.
 
@@ -627,7 +756,7 @@ Toxicology background and an LLM agent that runs an assessment workflow.
 
 ---
 
-## Model Context Protocol (MCP)
+## Model Context Protocol (MCP) {#mcp .tutorial-section}
 
 Exposing toxicology models and data to LLMs as MCP tools.
 
@@ -655,7 +784,7 @@ Exposing toxicology models and data to LLMs as MCP tools.
 
 ---
 
-## LLM fine-tuning
+## LLM fine-tuning {#llm-fine-tuning .tutorial-section}
 
 Instruction-tuning a language model on toxicology data.
 
@@ -676,7 +805,7 @@ Instruction-tuning a language model on toxicology data.
 
 ---
 
-## NLP
+## NLP {#nlp .tutorial-section}
 
 Text mining over toxicology literature.
 
@@ -697,7 +826,7 @@ Text mining over toxicology literature.
 
 ---
 
-## Free energy perturbation (FEP)
+## Free energy perturbation (FEP) {#free-energy-perturbation .tutorial-section}
 
 Alchemical free-energy methods for binding affinity.
 
@@ -718,7 +847,7 @@ Alchemical free-energy methods for binding affinity.
 
 ---
 
-## CI/CD & protein design
+## CI/CD & protein design {#ci-cd-protein-design .tutorial-section}
 
 Engineering practice for tox model repos, plus a protein-design pipeline.
 
@@ -746,7 +875,7 @@ Engineering practice for tox model repos, plus a protein-design pipeline.
 
 ---
 
-## Multi-omics
+## Multi-omics {#multi-omics .tutorial-section}
 
 Integrating transcriptomics, genomics, proteomics, and single-cell data.
 
@@ -788,7 +917,7 @@ Integrating transcriptomics, genomics, proteomics, and single-cell data.
 
 ---
 
-## Generative AI for molecules
+## Generative AI for molecules {#generative-ai-molecules .tutorial-section}
 
 Generative models for de novo molecular design, as Python scripts.
 
@@ -823,7 +952,7 @@ Generative models for de novo molecular design, as Python scripts.
 
 ---
 
-## Imaging
+## Imaging {#imaging .tutorial-section}
 
 High-content and whole-slide image analysis, as Python scripts.
 
@@ -865,7 +994,7 @@ High-content and whole-slide image analysis, as Python scripts.
 
 ---
 
-## Chem agent pipeline
+## Chem agent pipeline {#chem-agent-pipeline .tutorial-section}
 
 A scripted chemistry agent pipeline.
 
@@ -886,7 +1015,7 @@ A scripted chemistry agent pipeline.
 
 ---
 
-## Python ecosystem primers
+## Python ecosystem primers {#python-primers .tutorial-section}
 
 Short, self-contained notebooks on the core libraries used across these tutorials.
 
@@ -1040,7 +1169,7 @@ Short, self-contained notebooks on the core libraries used across these tutorial
 
 ---
 
-## Visualization
+## Visualization {#visualization .tutorial-section}
 
 Plotting chemical space and toxicology data.
 
@@ -1068,7 +1197,7 @@ Plotting chemical space and toxicology data.
 
 ---
 
-## Extra
+## Extra {#extra .tutorial-section}
 
 Assorted drafts, basics, and scratch notebooks kept for reference.
 
@@ -1128,4 +1257,3 @@ Assorted drafts, basics, and scratch notebooks kept for reference.
 </tbody>
 </table>
 ```
-

@@ -329,6 +329,13 @@
     "text": "This page mirrors the folder structure of the computational-science-tutorials GitHub repo — one section per top-level folder. Click Open in Colab to run any notebook instantly in your browser; Python scripts (.py) link to their source on GitHub instead."
   },
   {
+    "objectID": "tutorials.html#browse-tutorials",
+    "href": "tutorials.html#browse-tutorials",
+    "title": "Tutorials",
+    "section": "Browse tutorials",
+    "text": "Browse tutorials\nChoose a topic to jump to its tutorials. The catalog below follows the organization of the source repository.\n\n  \n    Drug discovery & chemistry\n    \n      Cheminformatics\n      GNN scripts & notebooks\n      Free energy perturbation\n      Generative AI for molecules\n      Chem agent pipeline\n    \n  \n  \n    AI, machine learning & agents\n    \n      Machine learning & deep learning\n      Agentic AI for science\n      Tox agents\n      Model Context Protocol (MCP)\n      LLM fine-tuning\n      Natural language processing\n    \n  \n  \n    Toxicology & biomedical science\n    \n      Bioinformatics & toxicogenomics\n      Toxicity endpoints\n      New Approach Methodologies\n      Neurotoxicity profiler\n      Organoids\n      Multi-omics\n    \n  \n  \n    Computing & methods\n    \n      CI/CD & protein design\n      Python ecosystem primers\n      Visualization\n      Imaging\n      Extra tutorials\n    \n  \n\n\n\n\n\n\n\nTipRunning in Colab\n\n\n\nClick any badge → sign in with Google → Runtime → Run All. All dependencies install automatically inside the notebook.\n\n\n\n\n\n\n\n\nNote\n\n\n\nA few folders keep working variants of the same tutorial (_copy, _advanced, and the Extra/ folder) alongside supporting data files. These are listed for completeness — start with the lowest-numbered notebook in each section.\n\n\n\n\n\n\n\n\nNote\n\n\n\nFound a bug or discrepancy? Please get in touch via email — feedback is always welcome."
+  },
+  {
     "objectID": "tutorials.html#cheminformatics",
     "href": "tutorials.html#cheminformatics",
     "title": "Tutorials",
@@ -336,29 +343,29 @@
     "text": "Cheminformatics\nRDKit, fingerprints, docking, and ML for molecular properties and toxicity.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n1\nRDKit tutorial\nRDKitBasics\nGuided introduction to RDKit: reading molecules, drawing, and computing descriptors\n\n\n\n2\nMolecular fingerprints & Tanimoto similarity\nRDKitFingerprintsSimilarity\nMorgan/ECFP fingerprints, Tanimoto similarity, and a first compound-library screen\n\n\n\n3\nLipinski Ro5 & ADMET profiling\nADMETDrug-likenessRDKit\nScreen libraries for drug-likeness — MW, LogP, HBD, HBA, TPSA — before expensive docking\n\n\n\n4\nVirtual screening with AutoDock Vina\nDockingVinaVirtual Screening\nSet up and run a docking campaign against a PDB target with Python wrappers around Vina\n\n\n\n5\nhERG cardiotoxicity prediction\nhERGSafetyML\nBuild an ML model on physicochemical descriptors to flag hERG blockers early\n\n\n\n6\nRDKit from scratch\nRDKitBasicsDescriptors\nLoad, draw, and compute properties of molecules — the essential cheminformatics starting point\n\n\n\n7\nChemical space analysis\nUMAPPCAChemical Space\nMap libraries in 2D with PCA and UMAP of Morgan fingerprints\n\n\n\n8\nLLM vs GNN property-prediction benchmark\nBenchmarkGNNLLM\nScript comparing an LLM and a GNN head-to-head on molecular property tasks\nSource ↗\n\n\n9\nSMARTS substructure search\nSMARTSSubstructureFunctional Groups\nWrite SMARTS patterns for functional groups, ring systems, and pharmacophore features\n\n\n\n10\nADMET prediction tutorial\nADMET\nEnd-to-end ADMET property-prediction workflow\n\n\n\n11\nHandling class imbalance\nImbalanceML\nResampling, class weights, and the right metrics for skewed toxicity datasets\n\n\n\n12\nFingerprints deep dive\nFingerprintsRDKit\nCompare fingerprint types and inspect what individual bits encode\n\n\n\n13\nGNN toxicity classifier\nGNNToxicity\nTrain a graph neural network on toxicity endpoints\n\n\n\n14\nGNN toxicology tutorial\nGNNPyTorch Geometric\nBuild and train a molecular GNN for toxicity prediction, step by step\n\n\n\n15\nLipinski rule-of-five\nRo5Drug-likeness\nCompute and apply the Lipinski Ro5 filter to a library\n\n\n\n16\nClassical ML for toxicity\nRandom ForestXGBoost\nRandom Forest and XGBoost baselines for toxicity endpoints\n\n\n\n17\nSHAP explainability for tox models\nSHAPXAI\nFeature attributions that explain individual toxicity predictions"
   },
   {
-    "objectID": "tutorials.html#cheminformatics-gnn-scripts-notebooks",
-    "href": "tutorials.html#cheminformatics-gnn-scripts-notebooks",
+    "objectID": "tutorials.html#cheminformatics-gnn",
+    "href": "tutorials.html#cheminformatics-gnn",
     "title": "Tutorials",
     "section": "Cheminformatics — GNN scripts & notebooks",
     "text": "Cheminformatics — GNN scripts & notebooks\nStandalone graph-neural-network architectures as runnable Python scripts, plus companion notebooks on GNN toxicology modeling and the PyTorch/TensorFlow basics they build on.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n18\nGCN baseline\nGCN\nPlain graph convolutional network baseline\nSource ↗\n\n\n19\nMPNN with edge features\nMPNN\nMessage-passing network that uses bond/edge features\nSource ↗\n\n\n20\nGraph attention network (GAT)\nGATAttention\nAttention-weighted message passing over the molecular graph\nSource ↗\n\n\n21\nGraph transformer\nGraph Transformer\nTransformer-style global attention on molecular graphs\nSource ↗\n\n\n22\nGNN architecture benchmark\nBenchmark\nCompare the four architectures above on the same task\nSource ↗\n\n\n23\nGNN toxicology tutorial\nGNNPyTorch GeometricToxicity\nBuild and train a molecular GNN for toxicity prediction, step by step\n\n\n\n24\nPyTorch basics\nPyTorchBasics\nTensors, autograd, and a first neural network — the foundation for the GNN scripts above\n\n\n\n25\nTensorFlow basics\nTensorFlowBasics\nKeras models and the tf.data pipeline from the ground up"
   },
   {
-    "objectID": "tutorials.html#machine-learning-deep-learning",
-    "href": "tutorials.html#machine-learning-deep-learning",
+    "objectID": "tutorials.html#machine-learning",
+    "href": "tutorials.html#machine-learning",
     "title": "Tutorials",
     "section": "Machine learning & deep learning",
     "text": "Machine learning & deep learning\nBaselines and modern architectures for molecular property and activity prediction.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n26\nClassical ML baseline for QSAR\nRandom ForestXGBoostQSAR\nRF and XGBoost classifiers for molecular activity — always establish this baseline first\n\n\n\n27\nGraph neural networks for molecules\nGNNPyTorch GeometricDeepChem\nBuild a GCN treating molecules as graphs — atoms as nodes, bonds as edges\n\n\n\n28\nGNN for molecules — comparison edition\nGNNBenchmark\nExtended notebook comparing several GNN variants on the same dataset\n\n\n\n29\nMessage-passing neural network (MPNN)\nMPNNGNN\nMPNN variant of the molecular GNN with explicit edge messages\n\n\n\n30\nMPNN on DRD2 bioactivity\nMPNNDRD2\nTrain the MPNN on DRD2 Ki data (D2_combined_Ki.csv)\n\n\n\n31\nFine-tuning ChemBERTa for toxicity\nTransformerChemBERTaTransfer Learning\nFine-tune a pre-trained molecular transformer on a toxicity dataset with HuggingFace"
   },
   {
-    "objectID": "tutorials.html#agentic-ai-for-science",
-    "href": "tutorials.html#agentic-ai-for-science",
+    "objectID": "tutorials.html#agentic-ai",
+    "href": "tutorials.html#agentic-ai",
     "title": "Tutorials",
     "section": "Agentic AI for science",
     "text": "Agentic AI for science\nLLM agents and retrieval-augmented pipelines over biomedical and chemical data.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n32\nRAG pipeline over scientific literature\nRAGLangChainPubMed\nRetrieval-augmented QA that answers drug-target questions from a paper corpus + PubMed\n\n\n\n33\nAgentic RAG — advanced\nAgentic AIRAG\nAn agent that plans its own retrieval steps before synthesizing an answer\n\n\n\n34\nAgentic RAG (working copy)\nRAGWIP\nScratch duplicate of the agentic RAG notebook\n\n\n\n35\nLangGraph agent: ChEMBL + PubChem\nLangGraphChEMBLAgentic AI\nA multi-step agent that retrieves structures, queries ChEMBL bioactivity, and summarizes\n\n\n\n36\nChEMBL agent — production service\nLangGraphChEMBLProduction\nProduction-oriented LangGraph service that keeps deterministic ChEMBL/PubChem retrieval separate from LLM synthesis\nSource ↗\n\n\n37\nBiomedical evidence synthesis agent\nRAGEvidence Synthesis\nLLM + RAG pipeline that gathers and synthesizes biomedical evidence on a question\n\n\n\n38\nAgentic AI tutorial\nAgentsTools\nFoundations of tool-using LLM agents for scientific tasks\n\n\n\n39\nAgentic workshop: cheminformatic agents with LangGraph\nLangGraphAgentsTool Calling\nHands-on workshop on building cheminformatics agents and tool-calling workflows with LangGraph"
   },
   {
-    "objectID": "tutorials.html#bioinformatics-toxicogenomics",
-    "href": "tutorials.html#bioinformatics-toxicogenomics",
+    "objectID": "tutorials.html#bioinformatics",
+    "href": "tutorials.html#bioinformatics",
     "title": "Tutorials",
     "section": "Bioinformatics & toxicogenomics",
     "text": "Bioinformatics & toxicogenomics\nRNA-Seq differential expression, cross-species correlation, and MEA dose-response.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n40\nMEA neurotoxicity & dose-response modeling\nMEANeurotoxDose-Response\nProcess Multi-Electrode Array data and fit dose-response curves with tcplfit2\n\n\n\n41\nIn vitro–in vivo correlation (IVIVE)\nIVIVEToxicologyCross-species\nCorrelate gene-expression changes between animal models and human hepatocytes\n\n\n\n42\nRNA-Seq differential expression — real data\nRNA-SeqDESeq2PyDESeq2\nDESeq2 pipeline run on a real count matrix, through to a volcano plot\n\n\n\n43\nRNA-Seq DESeq2 — standard walkthrough\nRNA-SeqDESeq2\nThe canonical QC → differential expression → volcano pipeline"
@@ -371,15 +378,15 @@
     "text": "Toxicity endpoints\nOne notebook per major organ-toxicity endpoint, plus multitask and explainability models.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n44\nTox21 multitask benchmark\nTox21MultitaskDNN\nMultitask DNN across the 12 Tox21 assays, with training curves and AUC comparison\n\n\n\n45\nDILI hepatotoxicity prediction\nDILIHepatotoxSHAP\nModel drug-induced liver injury and explain it with SHAP\n\n\n\n46\nCardiotoxicity: hERG & CiPA\nhERGCiPACardiotox\nhERG blockade plus CiPA risk classification, with bootstrap and MC-dropout uncertainty\n\n\n\n47\nNeurotoxicity & blood–brain barrier\nNeurotoxBBB\nBBB permeability and neurotoxicity, summarized in a single dashboard\n\n\n\n48\nNephrotoxicity prediction\nNephrotoxKidney\nKidney-injury endpoint modeling from molecular descriptors\n\n\n\n49\nGenotoxicity & mutagenicity\nGenotoxAmes\nAmes mutagenicity prediction and structural alerts\n\n\n\n50\nAcute oral toxicity (LD50)\nLD50Acute Tox\nRegression models for rat acute oral LD50\n\n\n\n51\nMultitask DeepToxNet\nMultitaskDNN\nA shared-representation DNN trained jointly across tox endpoints\n\n\n\n52\nExplainable AI for toxicology\nXAISHAP\nSHAP and attribution methods applied across the toxicity models\n\n\n\n53\nIntegrated tox prediction pipeline\nPipelineIntegration\nEnd-to-end multi-endpoint toxicity screening tying the earlier notebooks together"
   },
   {
-    "objectID": "tutorials.html#new-approach-methodologies-nam",
-    "href": "tutorials.html#new-approach-methodologies-nam",
+    "objectID": "tutorials.html#nam",
+    "href": "tutorials.html#nam",
     "title": "Tutorials",
     "section": "New Approach Methodologies (NAM)",
     "text": "New Approach Methodologies (NAM)\nAnimal-free toxicology: methods, weight-of-evidence workflows, and case studies.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n54\nNew Approach Methodologies — intro\nNAM3Rs\nOverview of animal-free toxicology methods and where they fit\n\n\n\n55\nAnimal-free safety assessment\nNAMAnimal-free\nBuild a NAM-based weight-of-evidence workflow for a safety decision\n\n\n\n56\nNAM case study 15\nNAMCase Study\nStandalone NAM case study / endpoint walkthrough\n\n\n\n57\nNAM case study 16\nNAMCase Study\nStandalone NAM case study / endpoint walkthrough\n\n\n\n58\nNAM case study 17\nNAMCase Study\nStandalone NAM case study / endpoint walkthrough\n\n\n\n59\nNAM case study 18\nNAMCase Study\nStandalone NAM case study / endpoint walkthrough\n\n\n\n60\nNAM case study 19\nNAMCase Study\nStandalone NAM case study / endpoint walkthrough"
   },
   {
-    "objectID": "tutorials.html#neurotoxicity-profiler",
-    "href": "tutorials.html#neurotoxicity-profiler",
+    "objectID": "tutorials.html#neurotoxicity",
+    "href": "tutorials.html#neurotoxicity",
     "title": "Tutorials",
     "section": "Neurotoxicity profiler",
     "text": "Neurotoxicity profiler\nMulti-assay neurotoxicity profiling, from a first pass to a production build.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n61\nNeurotoxicity profiler\nNeurotoxProfiling\nAssemble a multi-assay neurotoxicity profile for a compound\n\n\n\n62\nNeurotoxicity profiler v3 — hybrid\nNeurotoxHybrid\nHybrid ML + rules version of the profiler\n\n\n\n63\nNeurotoxicity profiler — production\nNeurotoxProduction\nPackaged, production-oriented version of the profiler"
@@ -399,8 +406,8 @@
     "text": "Tox agents\nToxicology background and an LLM agent that runs an assessment workflow.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n65\nIntro to toxicology for modelers\nToxicologyBasics\nKey concepts, endpoints, and data sources for people building tox models\n\n\n\n66\nToxAgent Pro\nAgentToxicology\nAn LLM agent that drives a full toxicity-assessment workflow"
   },
   {
-    "objectID": "tutorials.html#model-context-protocol-mcp",
-    "href": "tutorials.html#model-context-protocol-mcp",
+    "objectID": "tutorials.html#mcp",
+    "href": "tutorials.html#mcp",
     "title": "Tutorials",
     "section": "Model Context Protocol (MCP)",
     "text": "Model Context Protocol (MCP)\nExposing toxicology models and data to LLMs as MCP tools.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n67\nMCP for tox tools\nMCPTooling\nWrap tox models and datasets as Model Context Protocol tools\n\n\n\n68\nMCP for tox tools — part 2\nMCP\nExtended MCP server + client example"
@@ -420,15 +427,15 @@
     "text": "NLP\nText mining over toxicology literature.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n70\nNLP for toxicology text\nNLPNER\nExtract endpoints and entities from toxicology papers"
   },
   {
-    "objectID": "tutorials.html#free-energy-perturbation-fep",
-    "href": "tutorials.html#free-energy-perturbation-fep",
+    "objectID": "tutorials.html#free-energy-perturbation",
+    "href": "tutorials.html#free-energy-perturbation",
     "title": "Tutorials",
     "section": "Free energy perturbation (FEP)",
     "text": "Free energy perturbation (FEP)\nAlchemical free-energy methods for binding affinity.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n71\nFree energy perturbation (FEP)\nFEPAlchemicalBinding\nRelative binding free-energy calculations with an alchemical cycle"
   },
   {
-    "objectID": "tutorials.html#cicd-protein-design",
-    "href": "tutorials.html#cicd-protein-design",
+    "objectID": "tutorials.html#ci-cd-protein-design",
+    "href": "tutorials.html#ci-cd-protein-design",
     "title": "Tutorials",
     "section": "CI/CD & protein design",
     "text": "CI/CD & protein design\nEngineering practice for tox model repos, plus a protein-design pipeline.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n72\nCI/CD for computational toxicology\nCI/CDMLOps\nTesting, packaging, and automation for computational-toxicology codebases\n\n\n\n73\nAlphaFold + ProteinMPNN protein design\nAlphaFoldProteinMPNN\nStructure prediction plus inverse folding for de novo protein design"
@@ -441,8 +448,8 @@
     "text": "Multi-omics\nIntegrating transcriptomics, genomics, proteomics, and single-cell data.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n74\nMulti-omics integration tutorial\nMulti-omicsIntegration\nIntegrate transcriptomics, genomics, and proteomics for drug-response analysis\n\n\n\n75\nTranscriptomics & drug response\nTranscriptomics\nScript: link expression signatures to drug response\nSource ↗\n\n\n76\nGenomics: mutations & CNV\nGenomicsCNV\nScript: mutation and copy-number analysis\nSource ↗\n\n\n77\nProteomics + scRNA integration\nProteomicsscRNA\nScript: integrate proteomics with single-cell RNA-seq\nSource ↗"
   },
   {
-    "objectID": "tutorials.html#generative-ai-for-molecules",
-    "href": "tutorials.html#generative-ai-for-molecules",
+    "objectID": "tutorials.html#generative-ai-molecules",
+    "href": "tutorials.html#generative-ai-molecules",
     "title": "Tutorials",
     "section": "Generative AI for molecules",
     "text": "Generative AI for molecules\nGenerative models for de novo molecular design, as Python scripts.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n78\nSMILES RNN generator\nRNNSMILES\nCharacter-level RNN that generates SMILES strings\nSource ↗\n\n\n79\nConditional VAE for molecules\nVAELatent Space\nConditional variational autoencoder over molecular representations\nSource ↗\n\n\n80\nGAN, transformer & diffusion generators\nGANTransformerDiffusion\nThree generative approaches in one script: GAN, transformer, and diffusion\nSource ↗"
@@ -462,8 +469,8 @@
     "text": "Chem agent pipeline\nA scripted chemistry agent pipeline.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n85\nChem agent pipeline\nAgentPipeline\nEnd-to-end scripted agent pipeline for chemistry tasks\nSource ↗"
   },
   {
-    "objectID": "tutorials.html#python-ecosystem-primers",
-    "href": "tutorials.html#python-ecosystem-primers",
+    "objectID": "tutorials.html#python-primers",
+    "href": "tutorials.html#python-primers",
     "title": "Tutorials",
     "section": "Python ecosystem primers",
     "text": "Python ecosystem primers\nShort, self-contained notebooks on the core libraries used across these tutorials.\n\n\n\n\n\n\n\n\n\n#\nTutorial\nDescription\nRun\n\n\n\n\n86\npandas\npandas\nDataFrames, indexing, groupby, and joins\n\n\n\n87\nscikit-learn\nscikit-learn\nEstimators, pipelines, and model selection\n\n\n\n88\nPyTorch\nPyTorch\nTensors, autograd, and a training loop\n\n\n\n89\nTensorFlow\nTensorFlow\nKeras models and the tf data pipeline\n\n\n\n90\nFastAPI\nFastAPI\nServe a model behind a REST API\n\n\n\n91\nNumPy\nNumPy\nArrays, broadcasting, and vectorization\n\n\n\n92\nMatplotlib\nMatplotlib\nFigures, axes, and common plot types\n\n\n\n93\nBeautifulSoup\nBeautifulSoup\nParse and scrape HTML\n\n\n\n94\nOpenCV\nOpenCV\nImage loading, transforms, and filtering\n\n\n\n95\nNLTK\nNLTK\nTokenization, tagging, and basic NLP\n\n\n\n96\nStreamlit\nStreamlit\nBuild a quick interactive data app\n\n\n\n97\nPySpark\nPySpark\nDistributed DataFrames and transformations\n\n\n\n98\nboto3\nboto3AWS\nScript AWS services from Python\n\n\n\n99\nLangChain\nLangChain\nChains, prompts, and tools for LLM apps\n\n\n\n100\nSelenium\nSelenium\nDrive a real browser for scraping and testing\n\n\n\n101\nAirflow\nAirflow\nAuthor and schedule DAGs\n\n\n\n102\nFlask\nFlask\nA minimal web service\n\n\n\n103\nKivy\nKivy\nCross-platform GUI basics\n\n\n\n104\nNumPy for toxicology\nNumPyToxicology\nNumPy worked through tox-flavored examples\n\n\n\n105\nPython functions\nPythonBasics\nFunctions, scope, args, and closures"
